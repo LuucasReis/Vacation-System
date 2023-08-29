@@ -1,0 +1,18 @@
+﻿@using Utility;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor httpAcce
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (httpAcce.HttpContext.Session.GetString(SD.SessionToken) != null &&
+                              httpAcce.HttpContext.Session.GetString(SD.SessionToken).ToString().Length > 0)
+    {
+        <h1 class="display-4">BEM VINDO AO SISTEMA DE FÉRIAS, @User.Identity.Name.ToUpper()!</h1>
+    }
+    else
+    {
+        <h1 class="display-4">BEM VINDO AO SISTEMA DE FÉRIAS</h1>
+    }
+</div>

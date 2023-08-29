@@ -1,0 +1,74 @@
+﻿@using Utility;
+@model HistVacationDTO
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-primary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Detalhes da Solicitação</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post">
+            <input asp-for="Id" hidden />
+            <div class="border p-3 mt-4">
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Employee.Name" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Employee.Name" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="startVacationDate" disabled class="form-control border-0 shadow" />
+                    <label asp-for="startVacationDate" class="ms-2"></label>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="finishVacationDate" disabled class="form-control border-0 shadow" />
+                    <label asp-for="finishVacationDate" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Period" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Period" class="ms-2"></label>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Occupancy" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Occupancy" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Days" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Days" class="ms-2"></label>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Observacoes" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Observacoes" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Status" disabled class="form-control border-0 shadow" />
+                    <label asp-for="Status" class="ms-2"></label>
+                </div>
+                
+                    <div class="row mt-3">
+                    @if(Model.Status == SD.defaultStatus)
+                    {
+                        
+                        <div class="col-6 col-md-3">
+                            <button asp-controller="Vacation" asp-action="Approve" asp-route-id="@Model.Id" type="submit" class="btn btn-success form-control">Aprovar</button>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <button asp-controller="Vacation" asp-action="Reject" asp-route-id="@Model.Id" type="submit" class="btn btn-danger form-control">Rejeitar</button>
+                        </div>
+                    }
+                        <div class="col-6 col-md-3">
+                            <a asp-controller="Vacation" asp-action="Index" class="btn btn-primary border  form-control">
+                                Voltar
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>

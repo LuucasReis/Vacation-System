@@ -1,0 +1,39 @@
+﻿@model List<EmployeeDTO>
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-primary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Meus Subordinados</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a  asp-controller="Employees" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i>  Criar novo funcionário
+                </a>
+            </div>
+        </div>
+
+        <table id="tblData" class="table table-bordered table-striped bg-primary" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Salario</th>
+                    <th>Periodo Eletivo</th>
+                    <th>Regime</th>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/employee.js"></script>
+}

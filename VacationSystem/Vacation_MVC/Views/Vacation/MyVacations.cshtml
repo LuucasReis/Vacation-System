@@ -1,0 +1,65 @@
+﻿@using System.Security.Claims;
+@model List<HistVacationDTO>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-primary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Minhas Solicitações</h2>
+            </div>
+        </div>
+    </div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Periodo Eletivo
+                    </th>
+                    <th>
+                        Regime
+                    </th>
+                    <th>
+                        Primeiro Dia
+                    </th>
+                    <th>
+                        Ultimo Dia
+                    </th>
+                    <th>
+                        Dias
+                    </th>
+                    <th>
+                        Observações
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                @foreach(var item in Model)
+                {
+                <tr>
+                    <td>@item.Period</td>
+                    <td>
+                        @item.Employee.Regime
+                    </td>
+                    <td>@item.startVacationDate</td>
+                    <td>@item.finishVacationDate</td>
+                <td>@item.Days</td>
+                <td>
+                    @item.Observacoes
+                </td>
+                <td>@item.Status</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    <div class="col-6 col-md-3">
+        <a asp-controller="Vacation" asp-action="MyDetails" asp-route-email="@User.Claims.FirstOrDefault(x=> x.Type == ClaimTypes.Email).Value" class="btn btn-primary border  form-control">
+            Voltar
+        </a>
+    </div>
+    </div>
+</div>

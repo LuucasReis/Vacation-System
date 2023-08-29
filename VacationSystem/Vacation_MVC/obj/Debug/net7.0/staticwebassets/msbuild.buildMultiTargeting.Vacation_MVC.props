@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Vacation_MVC.props" />
+</Project>

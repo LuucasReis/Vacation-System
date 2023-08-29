@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ApropriacaoFrame
+build_property.RootNamespace = ApropriacaoFrame
+build_property.ProjectDir = C:\Users\lucasfernando_frwk\Documents\FrameApresentacao\FrameworkCompany\ApropriacaoFrame\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lucasfernando_frwk\Documents\FrameApresentacao\FrameworkCompany\ApropriacaoFrame
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Vacation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Vacation/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Vacation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Vacation/MyVacations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cTXlWYWNhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Vacation/RequestVacation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYXRpb25cUmVxdWVzdFZhY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucasfernando_frwk/Documents/FrameApresentacao/FrameworkCompany/ApropriacaoFrame/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jslo4bn9sb
